@@ -1,0 +1,37 @@
+音木箱サウンドギャラリー
+
+
+
+［サウンドデータ］
+
+ソフトウェア「Melody Factory for 音木箱」を起動させて、ファイルを開いてご利用ください。
+
+・きらきら星	twinklestar.ekm
+
+・もろびとこぞりて	morobito.ekm
+
+・ジングルベル	jingle.ekm
+
+・こぎつね		kogitune.ekm
+
+・おめでとうクリスマス	omedetou.ekm
+
+・ゆき		yuki.ekm
+
+
+
+「Melody Factory for 音木箱」ダウンロード
+
+https://www.elekit.co.jp/software/SW-1003
+
+
+
+
+
+[メロディシート]
+
+自分で色を塗って使うメロディーシート（空）を印刷できます。また、メロディシート(音階指定用)でメロディーシート(空)に色を塗る際の各音階、各音符の塗り方を確認することができます。
+
+・メロディシート（空）	sheet_blank.pdf
+
+・メロディシート(音階指定用)	sheet_scale.pdf
