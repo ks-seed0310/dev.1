@@ -1,0 +1,28 @@
+name: PE static analysis
+
+on:
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y binutils file
+          python3 -m pip install --upgrade pip
+          pip install pefile
+
+      - name: Run analysis script
+        run: |
+          mkdir -p analysis-output
+          python3 tools/analyze_exe.py MelodyFactory.exe analysis-output/report.txt analysis-output/strings.txt
+          ls -l analysis-output
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: exe-analysis
+          path: analysis-output
